@@ -1,7 +1,7 @@
 # way2automation
-<h2>wendriverIO automation</h2><br>
+<h2>webdriverIO automation</h2><br>
 <b>Steps to Run </b>
-<li>Install node</li>
+<li>Install Node</li>
 <li>npm install</li>
 <li>npm test</li>
 <br>
