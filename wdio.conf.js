@@ -21,10 +21,7 @@ exports.config = {
   services: ['selenium-standalone'],
 
   beforeCommand: function (commandName, args) {
-    if(typeof args[0] !== 'undefined' && ['click', 'setValue', 'getText', 'selectByValue', '$', '$$'].indexOf(commandName) >= 0) {
-      console.log(commandName);
-      console.log(args[0]);
-      console.log(args.length);
+    if(typeof args[0] !== 'undefined' && ['click', 'setValue', 'getText', 'selectByValue', '$', '$$'].indexOf(commandName) >= 0) {      
       browser.waitForVisible(args[0]);
     }
   }
